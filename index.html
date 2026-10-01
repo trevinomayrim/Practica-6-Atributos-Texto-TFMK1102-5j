@@ -1,0 +1,88 @@
+ <!-- Nombre: Mayrim Kassandra Treviño Fierro -->
+    <!-- Número de control: 1102 -->
+    <!-- Grupo: 5J -->
+<!DOCTYPE html>
+<!-- Declara que es un documento HTML5 -->
+<html lang="es">
+<!-- lang = idioma del documento, es = español -->
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Práctica 6 - Semáforo Triage</title>
+
+    <style>
+        /* Estilo  */
+        body {
+            max-width: 800px;   /* Ancho  */
+            margin: 0 auto;      /* Centra todo en la pantalla */
+            padding: 20px;       /* Espacio alrededor */
+            text-align: center;  /* Centra todo el texto */
+        }
+        table {
+            margin: 0 auto;      /* Centra tabla */
+        }
+    </style>
+</head>
+<body>
+
+<h1 style="color: #00337C; font-size: 32px;">Semáforo 
+    <span style="color: #0047B3; font-size: 52px; font-weight: bold;">TRIAGE</span>
+</h1>
+<!-- span = da formato distinto a una parte del texto -->
+
+<p style="color: #4A90A4; font-style: italic; font-size: 16px;">medicina y paramedios</p>
+<!-- Párrafo pequeño debajo del título -->
+
+<table style="border-collapse: collapse;">
+<!-- table = crea la tabla; border-collapse = une los bordes -->
+
+    <tr>
+    <!-- tr = fila de la tabla -->
+        <th style="color: #00337C; font-size: 15px; padding: 8px; text-align: center;">Tipo de atención</th>
+        <th style="color: #00337C; font-size: 15px; padding: 8px; text-align: center;">Área de atención</th>
+        <th style="color: #00337C; font-size: 15px; padding: 8px; text-align: center;">Tiempo de espera</th>
+        <!-- th = encabezado de columna y texto centrado -->
+    </tr>
+
+    <!-- ===== REANIMACIÓN ===== -->
+    <tr>
+        <td style="color: #E53935; font-size: 20px; font-weight: bold; padding: 12px; text-align: center;">● Reanimación</td>
+        <td style="color: #E53935; font-size: 16px; padding: 12px; text-align: center;">Área de reanimación</td>
+        <td style="color: #E53935; font-size: 16px; padding: 12px; text-align: center;">Inmediato<br>hasta 3 min</td>
+        <!-- td = celda con información; <br> = salto de línea -->
+    </tr>
+
+    <!-- ===== EMERGENCIA ===== -->
+    <tr>
+        <td style="color: #F57C00; font-size: 20px; font-weight: bold; padding: 12px; text-align: center;">● Emergencia</td>
+        <td style="color: #F57C00; font-size: 16px; padding: 12px; text-align: center;">Área de reanimación</td>
+        <td style="color: #F57C00; font-size: 16px; padding: 12px; text-align: center;">Inmediato<br>hasta 10 min</td>
+    </tr>
+
+    <!-- ===== URGENCIA ===== -->
+    <tr>
+        <td style="color: #F9A825; font-size: 20px; font-weight: bold; padding: 12px; text-align: center;">● Urgencia</td>
+        <td style="color: #F9A825; font-size: 16px; padding: 12px; text-align: center;">Consultorio de<br>primer contacto</td>
+        <td style="color: #F9A825; font-size: 16px; padding: 12px; text-align: center;">Hasta 30 min</td>
+    </tr>
+
+    <!-- ==== URGENCIA MENOR ===== -->
+    <tr>
+        <td style="color: #2E7D32; font-size: 20px; font-weight: bold; padding: 12px; text-align: center;">● Urgencia<br>menor</td>
+        <td style="color: #2E7D32; font-size: 16px; padding: 12px; text-align: center;">Consultorio de<br>primer contacto o UMF</td>
+        <td style="color: #2E7D32; font-size: 16px; padding: 12px; text-align: center;">Hasta 120 min</td>
+    </tr>
+
+    <!-- ===== SIN URGENCIA ===== -->
+    <tr>
+        <td style="color: #1565C0; font-size: 20px; font-weight: bold; padding: 12px; text-align: center;">● Sin<br>urgencia</td>
+        <td style="color: #1565C0; font-size: 16px; padding: 12px; text-align: center;">Consultorio de<br>primer contacto</td>
+        <td style="color: #1565C0; font-size: 16px; padding: 12px; text-align: center;">Hasta 180 min</td>
+    </tr>
+</table>
+<!-- Fin de la tabla -->
+
+</body>
+</html>
